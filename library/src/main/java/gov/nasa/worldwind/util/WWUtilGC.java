@@ -10,7 +10,7 @@ package gov.nasa.worldwind.util;
  * @author tag
  * @version $Id$
  */
-public class WWUtil
+public class WWUtilGC
 {
 
     /**
