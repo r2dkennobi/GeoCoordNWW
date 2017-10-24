@@ -3,10 +3,10 @@
  * National Aeronautics and Space Administration.
  * All Rights Reserved.
  */
-package gov.nasa.worldwind.geom.coords;
+package r2dkennobi.gov.nasa.worldwind.geom.coords;
 
-import gov.nasa.worldwind.avlist.AVKey;
-import gov.nasa.worldwind.geom.Angle;
+import r2dkennobi.gov.nasa.worldwind.avlist.AVKey;
+import r2dkennobi.gov.nasa.worldwind.geom.Angle;
 
 /**
  * Converter used to translate MGRS coordinate strings to and from geodetic latitude and longitude.
@@ -667,8 +667,8 @@ class MGRSCoordConverter
      * coordinate string according to the current ellipsoid parameters.  If any errors occur, the error code(s) are
      * returned by the function, otherwise MGRS_NO_ERROR is returned.
      *
-     * @param Hemisphere Hemisphere either, {@link gov.nasa.worldwind.avlist.AVKey#NORTH} or {@link
-     *                   gov.nasa.worldwind.avlist.AVKey#SOUTH}.
+     * @param Hemisphere Hemisphere either, {@link r2dkennobi.gov.nasa.worldwind.avlist.AVKey#NORTH} or {@link
+     *                   r2dkennobi.gov.nasa.worldwind.avlist.AVKey#SOUTH}.
      * @param Easting    Easting/X in meters
      * @param Northing   Northing/Y in meters
      * @param Precision  Precision level of MGRS string

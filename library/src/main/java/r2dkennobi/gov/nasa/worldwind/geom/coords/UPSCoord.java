@@ -3,10 +3,10 @@
  * National Aeronautics and Space Administration.
  * All Rights Reserved.
  */
-package gov.nasa.worldwind.geom.coords;
+package r2dkennobi.gov.nasa.worldwind.geom.coords;
 
-import gov.nasa.worldwind.avlist.AVKey;
-import gov.nasa.worldwind.geom.Angle;
+import r2dkennobi.gov.nasa.worldwind.avlist.AVKey;
+import r2dkennobi.gov.nasa.worldwind.geom.Angle;
 
 /**
  * This immutable class holds a set of UPS coordinates along with it's corresponding latitude and longitude.
@@ -56,8 +56,8 @@ public class UPSCoord
     /**
      * Create a set of UPS coordinates for the given <code>Globe</code>.
      *
-     * @param hemisphere the hemisphere, either {@link gov.nasa.worldwind.avlist.AVKey#NORTH} or {@link
-     *                   gov.nasa.worldwind.avlist.AVKey#SOUTH}.
+     * @param hemisphere the hemisphere, either {@link r2dkennobi.gov.nasa.worldwind.avlist.AVKey#NORTH} or {@link
+     *                   r2dkennobi.gov.nasa.worldwind.avlist.AVKey#SOUTH}.
      * @param easting    the easting distance in meters
      * @param northing   the northing distance in meters.
      *
@@ -85,8 +85,8 @@ public class UPSCoord
      *
      * @param latitude   the latitude <code>Angle</code>.
      * @param longitude  the longitude <code>Angle</code>.
-     * @param hemisphere the hemisphere, either {@link gov.nasa.worldwind.avlist.AVKey#NORTH} or {@link
-     *                   gov.nasa.worldwind.avlist.AVKey#SOUTH}.
+     * @param hemisphere the hemisphere, either {@link r2dkennobi.gov.nasa.worldwind.avlist.AVKey#NORTH} or {@link
+     *                   r2dkennobi.gov.nasa.worldwind.avlist.AVKey#SOUTH}.
      * @param easting    the easting distance in meters
      * @param northing   the northing distance in meters.
      *

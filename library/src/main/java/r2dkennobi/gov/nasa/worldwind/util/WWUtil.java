@@ -4,13 +4,13 @@
  * All Rights Reserved.
  */
 
-package gov.nasa.worldwind.util;
+package r2dkennobi.gov.nasa.worldwind.util;
 
 /**
  * @author tag
  * @version $Id$
  */
-public class WWUtilGC
+public class WWUtil
 {
 
     /**

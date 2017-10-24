@@ -92,7 +92,7 @@
  *
  */
 
-package gov.nasa.worldwind.geom.coords;
+package r2dkennobi.gov.nasa.worldwind.geom.coords;
 
 /**
  * Ported to Java from the NGA GeoTrans polarst.c and polarst.h code.

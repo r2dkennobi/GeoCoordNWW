@@ -1,4 +1,4 @@
-package gov.nasa.worldwind;
+package r2dkennobi.gov.nasa.worldwind;
 
 import org.junit.Test;
 

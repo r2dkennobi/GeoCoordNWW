@@ -3,7 +3,7 @@
  * National Aeronautics and Space Administration.
  * All Rights Reserved.
  */
-package gov.nasa.worldwind.geom;
+package r2dkennobi.gov.nasa.worldwind.geom;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -18,8 +18,8 @@ import java.util.regex.Pattern;
 public class Angle implements Comparable<Angle>
 {
     // Angle format
-    public final static String ANGLE_FORMAT_DD = "gov.nasa.worldwind.Geom.AngleDD";
-    public final static String ANGLE_FORMAT_DMS = "gov.nasa.worldwind.Geom.AngleDMS";
+    public final static String ANGLE_FORMAT_DD = "r2dkennobi.gov.nasa.worldwind.Geom.AngleDD";
+    public final static String ANGLE_FORMAT_DMS = "r2dkennobi.gov.nasa.worldwind.Geom.AngleDMS";
 
     /** Represents an angle of zero degrees */
     public final static Angle ZERO = Angle.fromDegrees(0);

@@ -83,9 +83,9 @@
  *
  */
 
-package gov.nasa.worldwind.geom.coords;
+package r2dkennobi.gov.nasa.worldwind.geom.coords;
 
-import gov.nasa.worldwind.avlist.AVKey;
+import r2dkennobi.gov.nasa.worldwind.avlist.AVKey;
 
 /**
  * Ported to Java from the NGA GeoTrans ups.c and ups.h code - Feb 12, 2007 4:52:59 PM
@@ -232,8 +232,8 @@ public class UPSCoordConverter
     }
 
     /**
-     * @return Hemisphere, either {@link gov.nasa.worldwind.avlist.AVKey#NORTH} or {@link
-     *         gov.nasa.worldwind.avlist.AVKey#SOUTH}.
+     * @return Hemisphere, either {@link r2dkennobi.gov.nasa.worldwind.avlist.AVKey#NORTH} or {@link
+     *         r2dkennobi.gov.nasa.worldwind.avlist.AVKey#SOUTH}.
      */
     public String getHemisphere()
     {
@@ -245,8 +245,8 @@ public class UPSCoordConverter
      * (latitude and longitude) coordinates according to the current ellipsoid parameters.  If any errors occur, the
      * error code(s) are returned by the function, otherwise UPS_NO_ERROR is returned.
      *
-     * @param Hemisphere Hemisphere, either {@link gov.nasa.worldwind.avlist.AVKey#NORTH} or {@link
-     *                   gov.nasa.worldwind.avlist.AVKey#SOUTH}.
+     * @param Hemisphere Hemisphere, either {@link r2dkennobi.gov.nasa.worldwind.avlist.AVKey#NORTH} or {@link
+     *                   r2dkennobi.gov.nasa.worldwind.avlist.AVKey#SOUTH}.
      * @param Easting    Easting/X in meters
      * @param Northing   Northing/Y in meters
      *

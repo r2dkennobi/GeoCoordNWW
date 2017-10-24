@@ -3,7 +3,7 @@
  * National Aeronautics and Space Administration.
  * All Rights Reserved.
  */
-package gov.nasa.worldwind.geom.coords;
+package r2dkennobi.gov.nasa.worldwind.geom.coords;
 
 /**
  * Converter used to translate Transverse Mercator coordinates to and from geodetic latitude and longitude.

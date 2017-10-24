@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 
-    package="gov.nasa.worldwind">
+    package="r2dkennobi.gov.nasa.worldwind">
 
     <application
         android:allowBackup="true"

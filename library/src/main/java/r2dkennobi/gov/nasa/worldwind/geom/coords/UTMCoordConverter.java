@@ -3,10 +3,10 @@
  * National Aeronautics and Space Administration.
  * All Rights Reserved.
  */
-package gov.nasa.worldwind.geom.coords;
+package r2dkennobi.gov.nasa.worldwind.geom.coords;
 
-import gov.nasa.worldwind.avlist.AVKey;
-import gov.nasa.worldwind.geom.*;
+import r2dkennobi.gov.nasa.worldwind.avlist.AVKey;
+import r2dkennobi.gov.nasa.worldwind.geom.*;
 
 /**
  * Converter used to translate UTM coordinates to and from geodetic latitude and longitude.
@@ -227,8 +227,8 @@ class UTMCoordConverter
     }
 
     /**
-     * @return The coordinate hemisphere, either {@link gov.nasa.worldwind.avlist.AVKey#NORTH} or {@link
-     *         gov.nasa.worldwind.avlist.AVKey#SOUTH}.
+     * @return The coordinate hemisphere, either {@link r2dkennobi.gov.nasa.worldwind.avlist.AVKey#NORTH} or {@link
+     *         r2dkennobi.gov.nasa.worldwind.avlist.AVKey#SOUTH}.
      */
     public String getHemisphere()
     {
@@ -247,8 +247,8 @@ class UTMCoordConverter
      * occur, the error code(s) are returned by the function, otherwise UTM_NO_ERROR is returned.
      *
      * @param Zone       UTM zone.
-     * @param Hemisphere The coordinate hemisphere, either {@link gov.nasa.worldwind.avlist.AVKey#NORTH} or {@link
-     *                   gov.nasa.worldwind.avlist.AVKey#SOUTH}.
+     * @param Hemisphere The coordinate hemisphere, either {@link r2dkennobi.gov.nasa.worldwind.avlist.AVKey#NORTH} or {@link
+     *                   r2dkennobi.gov.nasa.worldwind.avlist.AVKey#SOUTH}.
      * @param Easting    Easting (X) in meters.
      * @param Northing   Northing (Y) in meters.
      *

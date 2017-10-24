@@ -3,9 +3,9 @@
  * National Aeronautics and Space Administration.
  * All Rights Reserved.
  */
-package gov.nasa.worldwind.geom.coords;
+package r2dkennobi.gov.nasa.worldwind.geom.coords;
 
-import gov.nasa.worldwind.geom.Angle;
+import r2dkennobi.gov.nasa.worldwind.geom.Angle;
 
 /**
  * This class holds an immutable MGRS coordinate string along with
